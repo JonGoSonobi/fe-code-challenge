@@ -50,7 +50,7 @@ Lastly, going to `http://localhost:3001/inventory` should show some JSON output.
 ## To the Applicant
 We estimate that this code challenge takes around 4 hours on average, depending on your skill level. 
 
-You may alter this project in anyway, all we ask is that your use ReactJS on the client. Feel free to install any third party node packages that you feel that you need to show your skill.
+You may alter this project in anyway, all we ask is that you use ReactJS on the client. Feel free to install any third party node packages that you feel that you need to show your skill.
 
 ### Challenges:
 1 - Create an endpoint in the web server to allow clients to POST to /inventory to create an inventory record.
