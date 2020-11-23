@@ -11,7 +11,7 @@ NPM v6.14.8
 ##Setup
 There is a client and a server portion of this project located in the client and server directories. We recommend having 2 terminal tabs open for this.
 
-###Client
+##Client
 To reach the client from the root of the project
 
 ```cd client```
@@ -24,7 +24,7 @@ To start the client
 
 ```npm start```
 
-###Server
+##Server
 The Web server uses sqlite as its storage mechanism.
 
 To reach the server from the root of the project
@@ -52,7 +52,7 @@ We estimate that this code challenge takes around 4 hours on average, depending 
 
 You may alter this project in anyway, all we ask is that your use ReactJS on the client. Feel free to install any third party node packages that you feel that you need to show your skill.
 
-###Challenges:
+##Challenges:
 1 - Create an endpoint in the web server to allow clients to POST to /inventory to create an inventory record.
 
 2 - Create a UI to show a list of inventory.
@@ -61,7 +61,7 @@ You may alter this project in anyway, all we ask is that your use ReactJS on the
 
 4 - Show the newly created inventory in the list after is has been successfully created.
 
-###Measurements
+##Measurements
 For us, these challenges will measure:
 
 - Problem solving and programming ability
