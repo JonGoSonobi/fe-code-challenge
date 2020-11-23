@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# FE Code Challenge
+This project is the code challenge for applicants of the Frontend Engineering role at Sonobi.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Dependencies
+This project was put together using these Node and NPM versions. This is the LTS at the time. Previous versions of Node and NPM may or may not work.
+```
+Node v14.15.0
+NPM v6.14.8
+```
 
-## Available Scripts
+##Setup
+There is a client and a server portion of this project located in the client and server directories. We recommend having 2 terminal tabs open for this.
 
-In the project directory, you can run:
+###Client
+To reach the client from the root of the project
 
-### `yarn start`
+```cd client```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You must next install the dependencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```npm install```
 
-### `yarn test`
+To start the client
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```npm start```
 
-### `yarn build`
+###Server
+The Web server uses sqlite as its storage mechanism.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To reach the server from the root of the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```cd server```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You must install the dependencies
 
-### `yarn eject`
+```npm start```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the web server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```npm start```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To verify it is running you should see this in the console output
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`Frontend Code Challenge Web Server listening at http://localhost:3001
+`
 
-## Learn More
+Additionally going to `http://localhost:3001/` should show the text `Server is running!`.
+Lastly, going to `http://localhost:3001/inventory` should show some JSON output.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## To the Applicant
+We estimate that this code challenge takes around 4 hours on average, depending on your skill level. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You may alter this project in anyway, all we ask is that your use ReactJS on the client. Feel free to install any third party node packages that you feel that you need to show your skill.
 
-### Code Splitting
+###Challenges:
+1 - Create an endpoint in the web server to allow clients to POST to /inventory to create an inventory record.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2 - Create a UI to show a list of inventory.
 
-### Analyzing the Bundle Size
+3 - Create a UI to create an inventory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4 - Show the newly created inventory in the list after is has been successfully created.
 
-### Making a Progressive Web App
+###Measurements
+For us, these challenges will measure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Problem solving and programming ability
+- Creativity
+- General web knowledge
+- Expertise with JavaScript, HTML, and CSS
+- Knowledge of the common JavaScript libraries we use at Sonobi
+    - If the libraries are unknown to you: Ability to research documentation and apply it.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
